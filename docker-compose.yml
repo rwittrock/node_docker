@@ -17,7 +17,7 @@ services:
   nginx:
     build: ./nginx
     ports:
-      - '80:80'
+      - '79:79'
     depends_on:
       - web1
       - web2
